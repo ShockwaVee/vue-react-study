@@ -1,0 +1,54 @@
+.pokemonWrapper {
+    width: 360px;
+    margin: 16px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid #003a70;
+}
+
+.imageWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokemonDetails {
+    width: 100%;
+    border-top: 4px solid #003a70;
+    border-bottom: 4px solid #003a70;
+
+    tr {
+        background-color: #3d7dca;
+        color: white;
+
+        &:nth-child(odd) {
+            background-color: #ffcb05;
+            color: black;
+        }
+    }
+
+    td {
+        border-right: 4px solid #003a70;
+        font-size: 22px;
+        width: 50%;
+        padding: 4px 8px;
+    }
+
+    td {
+        &:nth-child(2) {
+            border-right: none;
+            text-align: right;
+        }
+    }
+}
+
+.addButton {
+    margin: 8px 0;
+    background-color: #3d7dca !important;
+}
+
+.typeTag {
+    text-transform: capitalize;
+}
