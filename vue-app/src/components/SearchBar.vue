@@ -8,13 +8,13 @@
 </template>
 
 <script lang="ts">
-import Vue from "vue";
+import Vue, { PropType } from "vue";
 
 export default Vue.extend({
   name: "SearchBar",
   props: {
     onSearch: {
-      type: Function,
+      type: Function as PropType<(searchQuery: string) => void>,
       required: true
     }
   }
