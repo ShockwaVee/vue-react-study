@@ -1,4 +1,4 @@
-##Vue and React comparison study
+## Vue and React comparison study
 
 ### Do you want to see how the same app looks and behaves in Vue and React?
 
