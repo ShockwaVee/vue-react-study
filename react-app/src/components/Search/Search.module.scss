@@ -1,0 +1,10 @@
+.wrapper {
+    display: flex;
+    & > div {
+        flex: 1 0 50%;
+    }
+
+    :global(.ant-list-bordered) {
+        border: none;
+    }
+}

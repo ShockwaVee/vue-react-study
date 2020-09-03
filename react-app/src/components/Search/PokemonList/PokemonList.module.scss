@@ -1,0 +1,9 @@
+.listItem {
+    :global(.ant-list-item-meta-title) {
+        text-transform: capitalize;
+    }
+
+    :global(.ant-list-item-meta) {
+        align-items: center;
+    }
+}
